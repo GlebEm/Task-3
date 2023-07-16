@@ -11,16 +11,4 @@ import org.springframework.context.annotation.Scope;
 @ComponentScan(basePackages = "app")
 public class AppConfig {
 
-    //На основе класса Timer создайте бин. Свяжите с AnimalCage.
-    // Проверьте, что при выполнении метода main время, которое пишет таймер, одно и тоже.
-//    @Bean(name = "Timer")
-//    public Timer getTimer(){
-//        return new Timer();
-//    }
-//
-//    @Bean(name = "Dog")
-////  @Scope("prototype")
-//    public Dog getDog() {
-//        return new Dog();
-//    }
 }

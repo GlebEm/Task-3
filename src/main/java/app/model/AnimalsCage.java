@@ -14,7 +14,7 @@ public class AnimalsCage  {
     private Animal animal;
 
     @Autowired
-//    @Qualifier("Timer")
+
     private Timer timer;
 
     public Timer getTimer(){
@@ -25,7 +25,7 @@ public class AnimalsCage  {
         System.out.println("Say:");
         System.out.println(animal.toString());
         System.out.println("At:");
-        System.out.println(timer.getTime());  //можно ли изменить тут newTimer на timer?
+        System.out.println(timer.getTime());
         System.out.println("________________________");
     }
 }
